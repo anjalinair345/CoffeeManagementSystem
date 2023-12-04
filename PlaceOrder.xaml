@@ -35,7 +35,6 @@
         <ComboBox HorizontalAlignment="Left" Height="31" Margin="375,544,0,0" VerticalAlignment="Top" Width="230"/>
         <ListBox d:ItemsSource="{d:SampleData ItemCount=2}" Margin="363,626,1477,800"/>
         <Button Content="Add" HorizontalAlignment="Left" Margin="685,781,0,0" VerticalAlignment="Top" Height="44" Width="115" FontSize="30" FontWeight="Bold" RenderTransformOrigin="-7.553,-3.64"/>
-        <DataGrid AutoGenerateColumns="True" HorizontalAlignment="Left" Height="366" Margin="138,890,0,0" VerticalAlignment="Top" Width="1328" SelectionChanged="DataGrid_SelectionChanged"/>
         <Label Content="Customer Name" HorizontalAlignment="Left" Margin="666,398,0,0" VerticalAlignment="Top" FontSize="30" Width="245" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" Margin="911,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="28" RenderTransformOrigin="1.454,2.923"/>
         <ListBox HorizontalAlignment="Left" Height="29" Margin="375,476,0,0" VerticalAlignment="Top" Width="230" d:ItemsSource="{d:SampleData ItemCount=5}" />
