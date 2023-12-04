@@ -54,6 +54,7 @@
         <TextBox HorizontalAlignment="Left" Margin="368,661,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="28" RenderTransformOrigin="1.454,2.923"/>
         <TextBox HorizontalAlignment="Left" Margin="368,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="230" Height="28" RenderTransformOrigin="1.454,2.923"/>
         <TextBox HorizontalAlignment="Left" Margin="366,794,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="28" RenderTransformOrigin="1.454,2.923"/>
+        <DataGrid HorizontalAlignment="Left" Height="233" Margin="136,907,0,0" VerticalAlignment="Top" Width="1305"/>
 
     </Grid>
 </Window>
