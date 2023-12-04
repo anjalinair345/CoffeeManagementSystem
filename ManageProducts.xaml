@@ -1,0 +1,47 @@
+﻿<Window x:Class="CoffeeManagementSystem.ManageProducts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeManagementSystem"
+        mc:Ignorable="d"
+        Title="ManageProducts"  Height="1500" Width="1600" >
+
+    <Grid>
+        <Image Margin="0,0,0,0" Source="/Image3.png" Stretch="Fill"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="45" Background="{x:Null}" FontWeight="Bold" Width="182" RenderTransformOrigin="2.174,1.066" Margin="1408,10,0,0" Height="64"/>
+        <Menu HorizontalAlignment="Left" Height="85" Margin="121,223,0,0" VerticalAlignment="Top" Width="1345" >
+            <MenuItem Header="Home" Height="83" Width="181" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Manage Employee" Height="83" Width="457" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Manage Products" Height="83" Width="446" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Reports" Height="83" Width="256" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown" Click="MenuItem_Click"/>
+
+        </Menu>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="136,402,0,0" VerticalAlignment="Top" FontSize="30" Width="221" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="363,417,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Height="28" RenderTransformOrigin="1.454,2.923"/>
+        <Label Content="Price" HorizontalAlignment="Left" Margin="136,471,0,0" VerticalAlignment="Top" FontSize="30" Width="222" FontWeight="Bold"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=2}" Margin="966,476,874,950"/>
+        <Label Content="Size Available" HorizontalAlignment="Left" Margin="136,652,0,0" VerticalAlignment="Top" FontSize="30" Width="222" FontWeight="Bold"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=2}" Margin="363,626,1477,800"/>
+        <Label Content="Ingredients" HorizontalAlignment="Left" Margin="136,539,0,0" VerticalAlignment="Top" FontSize="30" Width="222" FontWeight="Bold"/>
+        <Label Content="Coffee Cafe" Margin="531,42,260,0" VerticalAlignment="Top" Height="182" FontFamily="Old English Text MT" FontSize="100" FontWeight="Bold"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="45" Background="{x:Null}" FontWeight="Bold" Width="222" RenderTransformOrigin="2.174,1.066" Margin="1723,10,0,0" Height="64"/>
+        <Menu HorizontalAlignment="Left" Height="85" Margin="121,223,0,0" VerticalAlignment="Top" Width="1345" >
+            <MenuItem Header="Home" Height="83" Width="181" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Manage Employee" Height="83" Width="457" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Manage Products" Height="83" Width="446" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
+            <MenuItem Header="Reports" Height="83" Width="259" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown" Click="MenuItem_Click"/>
+
+
+
+        </Menu>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=2}" Margin="964,476,876,950"/>
+        <ComboBox HorizontalAlignment="Left" Height="31" Margin="363,659,0,0" VerticalAlignment="Top" Width="230"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=2}" Margin="363,626,1477,800"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="478,781,0,0" VerticalAlignment="Top" Height="44" Width="115" FontSize="30" FontWeight="Bold" RenderTransformOrigin="-7.553,-3.64"/>
+        <DataGrid AutoGenerateColumns="True" HorizontalAlignment="Left" Height="366" Margin="138,965,0,0" VerticalAlignment="Top" Width="1328"/>
+        <TextBox HorizontalAlignment="Left" Margin="363,482,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230" Height="28" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="363,550,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="230" Height="92"/>
+
+    </Grid>
+</Window>
