@@ -8,7 +8,7 @@
         Title="ManageProducts"  Height="1500" Width="1600" >
 
     <Grid>
-        <Image Margin="0,0,0,0" Source="/Image3.png" Stretch="Fill"/>
+        <Image Margin="0,0,0,0" Source="Images/Image3.png" Stretch="Fill"/>
         <Button Content="Log Out" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="45" Background="{x:Null}" FontWeight="Bold" Width="182" RenderTransformOrigin="2.174,1.066" Margin="1408,10,0,0" Height="64"/>
         <Menu HorizontalAlignment="Left" Height="85" Margin="121,223,0,0" VerticalAlignment="Top" Width="1345" >
             <MenuItem Header="Home" Height="83" Width="181" FontSize="50" BorderThickness="5" BorderBrush="RosyBrown"/>
